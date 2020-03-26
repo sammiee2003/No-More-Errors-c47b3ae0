@@ -21,7 +21,7 @@ function euro($geldEnheden, $geld) {
         }else{
             echo "geen geldig bedrag meegegeven\n";
         }
-        if(empty($restgeld)){
+        if (empty($restgeld)) {
             echo "Je hebt geen bedrag meegegeven dat omgewisseld dient te worden\n";
         }
     }
